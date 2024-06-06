@@ -47,7 +47,7 @@ pipeline {
         }
         stage('Update Deployment File') {
             environment {
-                GIT_REPO_NAME = "Apache-DevLake"
+                GIT_REPO_NAME = "Devlake-Jenkins"
                 GIT_USER_NAME = "Hemalatha0411"
             }
             steps {
